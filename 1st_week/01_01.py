@@ -61,5 +61,6 @@
 # print(round(a*b/2,1))
 
 # 1119
-a=int(input())
-print(a*24)
+# a=int(input())
+# print(a*24)
+
