@@ -19,8 +19,26 @@
 #         print("홀수+홀수=짝수")
 
 # 1162 당신의 사주를 봐 드립니다 1
-y,m,d=map(int,input().split())
-if((y-m+d)%10==0):
-    print('대박')
-else:
-    print('그럭저럭')
+# y,m,d=map(int,input().split())
+# if((y-m+d)%10==0):
+#     print('대박')
+# else:
+#     print('그럭저럭')
+
+# 1163 당신의 사주를 봐 드립니다 2
+# y,m,d = map(int,input().split())
+# if(((y+m+d)//100)%2==0):
+#     print("대박")
+# else:
+#     print("그럭저럭")
+
+# 1164 터널 통과하기 1
+# a,b,c=map(int,input().split())
+# if(a>170 and b>170 and c>170):
+#     print("PASS")
+# else:
+#     print("CRASH")
+
+# 1165 축구의 신 1
+# a,b=map(int,input().split())
+# print((89-a)//5+1+b)
