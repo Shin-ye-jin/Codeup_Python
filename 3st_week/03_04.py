@@ -31,3 +31,35 @@
 #     print(100-a//10000+13)
 # else:
 #     print(12-a//10000+1)
+
+# 1169 나이 계산2
+# a=int(input())
+# num=a-13
+# if num>0:
+#     print(100-num,1)
+# else:
+#     print(0-num,3)
+
+# 1170 당신의 학번은? 1
+# a,b,c=input().split()
+# if int(c)<10:
+#     print(a+b+"0"+c)
+# else:
+#     print(a+b+c)
+
+# 1171 당신의 학번은? 2
+# a,b,c=input().split()
+# if int(b)<10:
+#     if int(c)<10:
+#         print(a+"0"+b+"00"+c)
+#     elif int(c)<100:
+#         print(a+"0"+b+"0"+c)
+#     else:
+#         print(a+"0"+b+c)
+# else:
+#     if int(c)<10:
+#         print(a+b+"00"+c)
+#     elif int(c)<100:
+#         print(a+b+"0"+c)
+#     else:
+#         print(a+b+c)
