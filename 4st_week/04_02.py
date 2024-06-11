@@ -11,10 +11,23 @@
 #     print('30')
 
 # 1216 컨설팅 회사
+# a,b,c=map(int,input().split())
+# if a>b-c:
+#     print("do not advertise")
+# elif b-c>a:
+#     print("advertise")
+# else:
+#     print("does not matter")
+
+# 1218 삼각형 판단하기
 a,b,c=map(int,input().split())
-if a>b-c:
-    print("do not advertise")
-elif b-c>a:
-    print("advertise")
+if a+b<=c:
+    print("삼각형아님")
+elif a==b==c:
+    print("정삼각형")
+elif a==b or b==c or a==c:
+    print("이등변삼각형")
+elif a*a+b*b==c*c:
+    print("직각삼각형")
 else:
-    print("does not matter")
+    print("삼각형")
