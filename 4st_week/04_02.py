@@ -19,7 +19,6 @@
 # else:
 #     print("does not matter")
 
-
 # 1218 삼각형 판단하기
 a,b,c=map(int,input().split())
 if a+b<=c:
