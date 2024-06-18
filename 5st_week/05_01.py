@@ -24,3 +24,27 @@
 #     print('%d*%d=%d' % (num,i,num*i)) # %을 써서 문제 해결하기
 
 # 1266 n개의 수의 합
+# n=int(input())
+# num=list(map(int,input().split()))
+# sum=0
+# for i in num:
+#     sum+=i
+# print(sum)
+
+# 1267 n개의 수 중 5의 배수의 합
+# n=int(input())
+# num=list(map(int,input().split()))
+# sum=0
+# for i in num:
+#     if i%5==0:
+#         sum+=i
+# print(sum)
+
+# 1268 n개의 수 중 홀수의 개수
+# n=int(input())
+# num=list(map(int,input().split()))
+# count=0
+# for i in num:
+#     if i%2==1:
+#         count+=1
+# print(count)
