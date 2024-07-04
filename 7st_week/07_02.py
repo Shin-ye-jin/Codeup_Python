@@ -24,3 +24,27 @@
 #         if index==n:
 #             index=0
 #     print()
+
+# 1407 문자열 출력하기 1
+# temp=list(input().split())
+# for i in temp:
+#     if i==' ':
+#         continue
+#     else:
+#         print(i,end='')
+
+# 1409 기억력 테스트 1
+# num=list(map(int,input().split()))
+# n=int(input())
+# print(num[n-1])
+
+# 1410 올바른 괄호 1 (괄호 개수 세기)
+temp=list(input())
+count1=0
+count2=0
+for i in temp:
+    if i == "(":
+        count1+=1
+    elif i == ")":
+        count2+=1
+print(count1,count2)
