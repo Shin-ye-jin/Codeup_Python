@@ -32,3 +32,13 @@
 #     print("%c:%d"%(s[i],num[i]))
 
 # 1416 2진수 변환
+n=int(input())
+num=list(range(0,255)) # 메모리 고려하기
+i=0
+while n>1:
+    num[i] = n%2
+    i+=1
+    n=n//2
+num[i]=n
+for j in range(i,-1,-1):
+    print(num[j],end='')
