@@ -27,3 +27,21 @@ for i in n:
   if i=='t':
     print(count,end=' ')
 
+# 1419 love 2
+n=input()
+count=0
+for i in range(len(n)):
+  if n[i:i+4]=='love':
+    count+=1
+print(count)
+
+# 1733 I.O.I
+n=input()
+if n=="IOI":
+  print("IOI is the International Olympiad in Informatics.")
+else:
+  print("I don't care.")
+
+# 1734 welcome!
+ID=input()
+print("welcome! "+ID)
