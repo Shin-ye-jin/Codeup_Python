@@ -22,3 +22,25 @@ if a[-1]==b[0] and b[-1]==c[0] and c[-1]==a[0]:
   print("good")
 else:
   print("bad")
+
+# 6130 일차 방정식 ax+-=b=0의 해 구하기
+a,b=input().split('x')
+
+a=int(a)
+b=int(b)
+
+result = format(-b/a,".2f")
+print(result)
+
+# 6131 일차 방정식 ax+-b=c의 해 구하기
+a,b=input().split('x')
+b,c=b.split('=')
+
+a=int(a)
+b=int(b)
+c=int(c)
+
+num=c-b
+
+result = format(num/a,".2f")
+print(result)
