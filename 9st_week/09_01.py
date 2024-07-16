@@ -57,3 +57,63 @@ for i in range(n - 1, -1, -1):
     for j in range(0, m):
         print(matrix[i][j], end=' ')
     print()
+
+# 1473 [기초-배열연습] 2차원 배열 지그재그 채우기 2-6
+n,m=map(int,input().split())
+matrix=[[0]*m for i in range(n)]
+count=0
+
+for i in range(0,n):
+  if i%2==0:
+    for j in range(0,m):
+      count+=1
+      matrix[i][j]=count
+  else:
+    for j in range(m-1,-1,-1):
+      count+=1
+      matrix[i][j]=count
+
+for i in range(n-1,-1,-1):
+  for j in range(0,m):
+    print(matrix[i][j],end=' ')
+  print()
+
+# 1474 [기초-배열연습] 2차원 배열 지그재그 채우기 2-7
+n,m=map(int,input().split())
+matrix=[[0]*n for i in range(m)]
+count=0
+
+for i in range(0,m):
+  if i%2==0:
+    for j in range(0,n):
+      count+=1
+      matrix[i][j]=count
+  else:
+    for j in range(n-1,-1,-1):
+      count+=1
+      matrix[i][j]=count
+
+for i in range(n-1,-1,-1):
+  for j in range(m-1,-1,-1):
+    print(matrix[j][i],end=' ')
+  print()
+
+# 1475 [기초-배열연습] 2차원 배열 지그재그 채우기 2-8
+n,m=map(int,input().split())
+matrix=[[0]*n for i in range(m)]
+count=0
+
+for i in range(0,m):
+  if i%2==1:
+    for j in range(0,n):
+      count+=1
+      matrix[i][j]=count
+  else:
+    for j in range(n-1,-1,-1):
+      count+=1
+      matrix[i][j]=count
+
+for i in range(n-1,-1,-1):
+  for j in range(m-1,-1,-1):
+    print(matrix[j][i], end=' ')
+  print()
