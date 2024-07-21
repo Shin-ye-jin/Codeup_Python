@@ -54,3 +54,36 @@ for i in range(n):
       arr2[i][j]=sum
       print(sum,end=' ')
   print()
+
+# 1494 [기초-배열연습] 1차원 차이 배열 만들기 5-3
+n,k=map(int,input().split())
+d=[0]*(n+1)
+num=[0]*(n+1)
+
+for i in range(k):
+  s,e,u=map(int,input().split())
+  d[s-1]=d[s-1]+u
+  d[e]=d[e]-u
+
+for i in range(0,n):
+  print(d[i],end=' ')
+
+print()
+
+for i in range(0,n):
+  if i==0:
+    num[i]=d[i]
+    print(num[i],end=' ')
+  else:
+    num[i]=num[i-1]+d[i]
+    print(num[i],end=' ')
+
+# 1496 [기초-배열연습] 두 개씩 묶어 작은 값 골라 배열 만들기 5-5
+n=int(input())
+num=list(map(int,input().split()))
+
+for i in range(0,len(num)-1,2):
+  if num[i]>num[i+1]:
+    print(num[i+1],end=' ')
+  else:
+    print(num[i],end=' ')
