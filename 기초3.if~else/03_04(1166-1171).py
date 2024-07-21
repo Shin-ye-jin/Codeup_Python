@@ -7,7 +7,7 @@
 # else:
 #     print("Normal")
 
-# 두 번째 수
+# 1167 두 번째 수
 # a,b,c=map(int,input().split())
 # if a<=b and a<=c:
 #     if b<=c:
