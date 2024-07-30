@@ -52,7 +52,7 @@
 #         print(r_matrix[i][j],end=' ')
 #     print()
 
-# 1520 생명 게임 2
+# 1520 생명 게임 2  # 다시!! 하기!!!!!
 a,b=map(int,input().split())
 x,y,z=map(int,input().split())
 
