@@ -9,6 +9,21 @@
 # print(f())
 
 # 1531 [기초-함수작성] 함수로 정수(int) 1 리턴하기
-def f():
-    return 1
-print(f())
+# def f():
+#     return 1
+# print(f())
+
+# 1532 [기초-함수작성] 함수로 정수(long long int) -2147483649 리턴하기
+# def f():
+#     return -2147483649
+# print(f())
+
+# 1533 [기초-함수작성] 함수로 실수(float) 3.14 리턴하기
+# def f():
+#     return 3.14
+# print(format(f(),".6f")) # 뒤를 0으로 채우기
+
+# 1534 [기초-함수작성] 함수로 실수(double) 3.1415926535897 리턴하기
+# def f():
+#     return 3.1415926535897
+# print(f())
