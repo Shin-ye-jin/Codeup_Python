@@ -24,3 +24,34 @@
 #         print("non zero")
 # n=int(input())
 # f(n)
+
+# 1541 [기초-함수작성] 함수로 negative/zero/positive 출력하기
+# def f(num):
+#     if num <0:
+#         print("negative")
+#     elif num==0:
+#         print("zero")
+#     else:
+#         print("positive")
+# n=int(input())
+# f(n)
+
+# 1542 [기초-함수작성] 함수로 prime 또는 composite 출력하기
+# def f(num):
+#     count=0
+#     for i in range(2,1001):
+#         if num%i==0:
+#             count+=1
+#     if count==1:
+#         print("prime")
+#     else:
+#         print("composite")
+# n=int(input())
+# f(n)
+
+# 1543 [기초-함수작성] 함수로 love 출력하기
+# def f(num):
+#     for i in range(num):
+#         print("love")
+# n=int(input())
+# f(n)
