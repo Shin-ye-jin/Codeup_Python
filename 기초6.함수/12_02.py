@@ -55,3 +55,30 @@
 #         print("love")
 # n=int(input())
 # f(n)
+
+# 1544 [기초-함수작성] 함수로 * n개 출력하기
+# def f(num):
+#     for i in range(num):
+#         print("*",end='')
+# n=int(input())
+# f(n)
+
+# 1545 [기초-함수작성] 함수로 true(1) / false(0) 리턴하기
+# def f(num):
+#     if num == 0:
+#         print("zero")
+#     else:
+#         print("non zero")
+# n=int(input())
+# f(n)
+
+# 1546 [기초-함수작성] 함수로 plue/minus/0 판별하기
+# def f(num):
+#     if num>0:
+#         print("plus")
+#     elif num==0:
+#         print("zero")
+#     else:
+#         print("minus")
+# n=int(input())
+# f(n)
