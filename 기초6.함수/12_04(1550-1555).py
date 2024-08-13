@@ -28,3 +28,28 @@
 #     return n-int(n)
 # n=float(input())
 # print("%.14f" % f(n)) # 소수점이 14자리이다.
+
+# 1553 [기초-함수작성] 함수로 정수 올림 한 값 리턴하기
+# import math
+# def f(num):
+#     return math.ceil(num) # ceil 올림
+#
+# n=float(input())
+# print(f(n))
+
+# 1554 [기초-함수작성] 함수로 정수 내림 한 값 리턴하기
+# import math
+# def f(num):
+#     return math.floor(num) # floor 내림
+#
+# n=float(input())
+# print(f(n))
+
+# 1555 [기초-함수작성] 함수로 n까지의 합 리턴하기
+# def f(num):
+#     sum=0
+#     for i in range(num+1):
+#         sum+=i
+#     return sum
+# n=int(input())
+# print(f(n))
