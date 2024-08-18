@@ -38,3 +38,45 @@
 # a,b=map(int,input().split())
 #
 # print(f(a,b))
+
+# 1568 [기초-함수작성] 함수로 배열의 최대값 위치 리턴하기
+# def f(a,b):
+#     max=num[a-1]
+#     number=a-1
+#     for i in range(a,b):
+#         if max<num[i]:
+#             max=num[i]
+#             number=i
+#     return number+1
+#
+# n=int(input())
+# num=list(map(int,input().split()))
+# a,b=map(int,input().split())
+#
+# print(f(a,b))
+
+# 1569 [기초-함수작성] 함수로 배열의 최대값 위치 리턴하기 2
+# def f(n,k):
+#     for i in range(n):
+#         if num[i]==k:
+#             return i+1
+#     return -1
+#
+# n=int(input())
+# num=list(map(int,input().split()))
+# k=int(input())
+#
+# print(f(n,k))
+
+# 1570 [기초-함수작성] 함수로 Lower Bound 위치 리턴하기
+def f(n,k):
+    for i in range(n):
+        if num[i]>=k:
+            return i+1
+    return n+1
+
+n=int(input())
+num=list(map(int,input().split()))
+k=int(input())
+
+print(f(n,k))
