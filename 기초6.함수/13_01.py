@@ -14,11 +14,11 @@
 # 1576, 1577, 1578, 1579, 1580, 1581 c전용 문제
 
 # 1602 절대값 함수
-def abs(num):
-    if num<0:
-        return (-num)
-    else:
-        return num
-
-n=float(input())
-print("%.10g"%abs(n))
+# def abs(num):
+#     if num<0:
+#         return (-num)
+#     else:
+#         return num
+#
+# n=float(input())
+# print("%.10g"%abs(n))
