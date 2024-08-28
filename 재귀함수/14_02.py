@@ -33,7 +33,6 @@
 #     elif n%2==0:
 #         f(n//2)
 #         print(n//2)
-#
 # n=int(input())
 # f(n)
 # print(n)
