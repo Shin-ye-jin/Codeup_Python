@@ -41,3 +41,34 @@
 #     result//=i
 #
 # print(result)
+
+# 2652 극장 좌석 배치 2
+# def f(n):
+#     if n<=1: return 1
+#     else: return n*f(n-1)
+#
+# n,k=map(int,input().split())
+#
+# tmp=n-k
+#
+# result=f(tmp+1)/(f(k)*f(tmp+1-k))
+# print("%.0f"%result)
+
+# 2653 규칙에 맞는 이진수 만들기
+# n=int(input())
+# tmp=2**n
+# temp1=2
+# cnt,result=0,0
+# for i in range(tmp):
+#     n2=i
+#     for j in range(n):
+#         temp2=n2%2
+#         if temp1==0 and temp2==0: cnt+=1
+#         temp1=n2%2
+#         n2=n2//2
+#     if cnt<1: result+=1
+#     temp1=2
+#     cnt=0
+#
+# print(result)
+
