@@ -27,7 +27,6 @@
 #             else: return 2
 #         else:
 #             return f(n-2,t-1) + f(n-1,t-1)
-#
 # n,k=map(int, input().split())
 # print(f(n,k-1))
 
