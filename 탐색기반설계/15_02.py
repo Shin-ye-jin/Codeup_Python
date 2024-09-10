@@ -30,3 +30,43 @@
 # n,k=map(int, input().split())
 # print(f(n,k-1))
 
+# 2833 [상태 정의를 통한 탐색] 계단 오르기 2-1
+# def f(n,t):
+#     if t<=0 and n>0:
+#         return 0
+#     else:
+#         if n==1: return 1
+#         elif n==2:
+#             if t==1: return 1
+#             else: return 2
+#         elif n==3:
+#             if t==1: return 1
+#             elif t==2: return 3
+#             else: return 4
+#         else:
+#             return f(n-3,t-1) + f(n-2,t-1) + f(n-1,t-1)
+#
+# n,k=map(int, input().split())
+# print(f(n,k-1))
+
+# 2834 [상태 정의를 통하 탐색] 계단 오르기 3-1
+
+# 2835 [상태 정의를 통한 탐색] 계단 오르기 4-1
+# def f(n,k,r):
+#     if n!=0 and k==0: return 0
+#     elif n==0 and k!=0: return 0
+#     elif n==0 and k==0: return 1
+#     elif r==3:
+#         return f(n-1,k-1,0)+f(n-2,k-1,1)+f(n-3,k-1,2)
+#     elif r==0:
+#         return f(n-2,k-1,1) + f(n-3,k-1,2)
+#     elif r==1:
+#         return f(n-1,k-1,0) + f(n-3,k-1,2)
+#     elif r==2:
+#         return f(n-1,k-1,0) + f(n-2,k-1,1)
+#
+# n,k=map(int,input().split())
+# sum=0
+# for i in range(k):
+#     sum+=f(n,i,3)
+# print(sum)
