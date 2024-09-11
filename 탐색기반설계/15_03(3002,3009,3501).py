@@ -42,3 +42,34 @@
 #
 # print(cnt-(not s)*1)
 
+# 3501 RGB 거리 (Small)
+# n=int(input())
+# matrix=[[0]*15 for i in range(15)]
+# min=1000000
+# for i in range(n):
+#     matrix[i]=list(map(int,input().split()))
+#
+# def f(r,c,sum):
+#     global min
+#     if r==n:
+#         if sum<=min:
+#             min=sum
+#         return
+#     elif c==0:
+#         sum+=matrix[r][c]
+#         f(r+1,c+1,sum)
+#         f(r+1,c+2,sum)
+#     elif c==1:
+#         sum+=matrix[r][c]
+#         f(r+1,c-1,sum)
+#         f(r+1,c+1,sum)
+#     elif c==2:
+#         sum+=matrix[r][c]
+#         f(r+1,c-1,sum)
+#         f(r+1,c-2,sum)
+#
+# f(0,0,0)
+# f(0,1,0)
+# f(0,2,0)
+#
+# print(min)
