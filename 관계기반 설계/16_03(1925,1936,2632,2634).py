@@ -20,7 +20,6 @@
 #         else:
 #             sum+=1
 #             f(a,b//2)
-#
 # a,b=map(int,input().split())
 # f(a,b)
 # print(sum)
