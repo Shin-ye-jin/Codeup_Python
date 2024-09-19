@@ -34,3 +34,22 @@
 # n=int(input())
 # res=f(n)
 # print(res)
+
+# 2634 거스름돈 ||
+# m=int(input())
+# n=int(input())
+# count=[0]*(m+1)
+# num=[0]*n
+# count[0]=0
+#
+# num=list(map(int,input().split()))
+#
+# for i in range(1,m+1):
+#     count[i]=m+1
+#     for j in range(n):
+#         if num[j]<=i:
+#             count[i]= count[i] if count[i]<count[i-num[j]]+1 else count[i-num[j]]+1
+#
+#
+# print(count[m])
+
