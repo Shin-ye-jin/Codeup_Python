@@ -37,3 +37,39 @@
 #     if a%i==0 and b%i==0 and c%i==0:
 #         print(i)
 #         break
+
+# 4021 홀수의 합 구하기
+# num=list(map(int,input().split()))
+# result,count=0,0
+#
+# for i in num:
+#     if i%2==1:
+#         result+=i
+#         count+=1
+#
+# if count==0:
+#     print("-1")
+# else:
+#     print(result)
+
+# 4026 중앙 값
+# num=list(map(int,input().split()))
+# num=sorted(num)
+# print(num[2])
+
+# 4031 가장 큰 수
+# num=list(map(int,input().split()))
+# num=sorted(num)
+# n=len(num)
+# a,b=0,0
+# for i in range(n-1,-1,-1):
+#     if num[i]%2==1:
+#         a=num[i]
+#         break
+#
+# for i in range(n-1,-1,-1):
+#     if num[i]%2==0:
+#         b=num[i]
+#         break
+#
+# print(a+b)
