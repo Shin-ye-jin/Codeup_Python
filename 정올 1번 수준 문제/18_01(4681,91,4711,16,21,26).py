@@ -41,3 +41,17 @@
 #         max=cnt
 #
 # print(max)
+
+# 4716 지능형 기차 2
+# a,b=map(int,input().split())
+# max,cnt=b,b
+# for i in range(9):
+#     a,b=map(int,input().split())
+#     cnt=cnt-a+b
+#     if max<cnt:
+#         max=cnt
+#
+# print(max)
+
+# 4721 투표
+# 4726 수열
