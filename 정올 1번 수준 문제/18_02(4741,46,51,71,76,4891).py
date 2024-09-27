@@ -55,3 +55,27 @@
 #         print(a,b,c)
 
 # 4751 아시아 정보올림피아드
+
+# 4771 그릇
+# matrix=list(input())
+# res=10
+# for i in range(1,len(matrix)):
+#     if matrix[i]==matrix[i-1]:
+#         res+=5
+#     else: res+=10
+#
+# print(res)
+
+# 4776 간지
+# n=int(input())
+# n1 = chr(ord("A")+(n+8)%12)
+# n2 = 0+(n+6)%10
+# print(n1,end='')
+# print(n2)
+
+# 4891 행복
+# n=int(input())
+# matrix = list(map(int,input().split()))
+# matrix = sorted(matrix)
+# m = len(matrix)
+# print(matrix[m-1] - matrix[0])
