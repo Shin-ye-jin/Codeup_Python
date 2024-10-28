@@ -40,3 +40,28 @@
 
 
 # 2322 자녀의 혈액형1
+a,b=input().split()
+matrix1 = list(a)
+matrix2 = list(b)
+result = []
+
+for i in matrix1:
+    for j in matrix2:
+        if i+j == "AA" or i+j == "AO" or i+j == "OA":
+            result.append("A")
+        elif i+j == "BB" or i+j == "BO" or i+j == "OB":
+            result.append("B")
+        elif i+j == "OO":
+            result.append("O")
+        elif i+j == "AB" or i+j == "BA":
+            result.append("AB")
+
+result = sorted(result)
+set = []
+
+for i in result:
+    if i not in set:
+        set.append(i)
+
+for i in set:
+    print(i,end=' ')
