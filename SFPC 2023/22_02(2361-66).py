@@ -33,7 +33,6 @@
 #
 # print(res,cnt*150000)
 
-
 # 2365 고추장 항아리 2
 n=int(input())
 cnt = n//5
